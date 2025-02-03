@@ -42,33 +42,26 @@ public class Team {
     public int getELO() {
         return ELO;
     }
-    public double setWinningPct(double wP) {
+    public void setWinningPct(double wP) {
         winningPct = wP;
-        return winningPct;
     }
-    public double setStrengthOfSchedule(double SOS) {
+    public void setStrengthOfSchedule(double SOS) {
         strengthOfSchedule = SOS;
-        return strengthOfSchedule;
     }
-    public double setNonConferenceSOS(double nSOS) {
+    public void setNonConferenceSOS(double nSOS) {
         nonConferenceSOS = nSOS;
-        return nonConferenceSOS;
     }
-    public double setRank(int ra) {
+    public void setRank(int ra) {
         rank = ra;
-        return rank;
     }
-    public double setDefEff(double dEf) {
+    public void setDefEff(double dEf) {
         defEff = dEf;
-        return defEff;
     }
-    public double setOffEff(double oEf) {
+    public void setOffEff(double oEf) {
         offEff = oEf;
-        return offEff;
     }
-    public double setELO(int eLO) {
+    public void setELO(int eLO) {
         ELO = eLO;
-        return ELO;
     }
     public String toString() {
         return "Team: "+teamName+" "+"Winning Percentage: " +winningPct+" Rank: "+rank;
