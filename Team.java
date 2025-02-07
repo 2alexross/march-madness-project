@@ -20,10 +20,10 @@ public class Team {
     public double getWinningPct() {
         return winningPct;
     }
-    public double getStrengthOfSchedule() {
+    public double getSOS() {
         return strengthOfSchedule;
     }
-    public double getNonConferenceSOS() {
+    public double getnSOS() {
         return nonConferenceSOS;
     }
     public int getRank() {
