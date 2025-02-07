@@ -8,7 +8,7 @@ public class Team {
     private String teamName;
     private int ELO;
 
-    public Team(String tN, double wP, double SOS, double nSOS, int ra, double dEf, double oEf, int e) {
+    public Team(String tN, double wP, double SOS, double nSOS, int ra, double dEf, double oEf) {
         teamName = tN;
         winningPct = wP;
         strengthOfSchedule = SOS;
@@ -16,7 +16,6 @@ public class Team {
         rank = ra;
         defEff = dEf;
         offEff = oEf;
-        ELO = e;
     }
     public double getWinningPct() {
         return winningPct;
@@ -39,9 +38,6 @@ public class Team {
     public String getTeamName() {
         return teamName;
     }
-    public int getELO() {
-        return ELO;
-    }
     public void setWinningPct(double wP) {
         winningPct = wP;
     }
@@ -59,9 +55,6 @@ public class Team {
     }
     public void setOffEff(double oEf) {
         offEff = oEf;
-    }
-    public void setELO(int eLO) {
-        ELO = eLO;
     }
     public String toString() {
         return "Team: "+teamName+" "+"Winning Percentage: " +winningPct+" Rank: "+rank;
